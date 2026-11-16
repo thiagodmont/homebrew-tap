@@ -2,28 +2,28 @@
 class Monoban < Formula
   desc "Keyboard-first kanban board, from your terminal"
   homepage "https://monoban.dev"
-  version "1.10.0"
+  version "1.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.10.0/monoban-1.10.0-darwin-arm64.tar.gz"
-      sha256 "699817349d8787fff3e69058c3cde29f2022d112da51f66bdb926b376a42eb63"
+      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.11.0/monoban-1.11.0-darwin-arm64.tar.gz"
+      sha256 "bad370ad79c4569c3c2db4bb8bcfcfffa3316c77165578ddeb64e0b8b43081af"
     end
     on_intel do
-      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.10.0/monoban-1.10.0-darwin-x64.tar.gz"
-      sha256 "1c7f847f9fbf647c9d7644bac41c8523e4c54bcaea6619f9d4c15aa5dad92718"
+      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.11.0/monoban-1.11.0-darwin-x64.tar.gz"
+      sha256 "e02771c58d376e4bc6d1cabdeb0603021a7cc44485d4726be3958d56a07a6d1c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.10.0/monoban-1.10.0-linux-arm64.tar.gz"
-      sha256 "a7bf35215b07d1a6d837005d97dcbfbbf9cc5ef2fdb1552f80be1e9ebd3b8a53"
+      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.11.0/monoban-1.11.0-linux-arm64.tar.gz"
+      sha256 "cfd861872c6a00f0547203b758b2657689d8ffbe98e8f8cfad1aa018d0ba2eb9"
     end
     on_intel do
-      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.10.0/monoban-1.10.0-linux-x64.tar.gz"
-      sha256 "44be93058c755e1fe51e51f9a17cb4913d55d3a0d06207214902537a6ed4156a"
+      url "https://github.com/thiagodmont/homebrew-tap/releases/download/monoban-v1.11.0/monoban-1.11.0-linux-x64.tar.gz"
+      sha256 "6c4cef8e3ccc06ceff3f7b032a7120fd10cfb6c764e8657b3149bfcc24084e4e"
     end
   end
 
